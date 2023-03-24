@@ -1,0 +1,58 @@
+.ficha{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    border-radius: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 15px 15px 40px;
+}
+
+.ficha p {
+    text-align: left;
+    color:azure;
+    font-weight: bold;
+}
+
+.ficha button{
+    width: 200px;
+    background-color: rgb(21, 18, 53);
+    color: azure;
+    border-radius: 35px;
+    margin-top: 15px;
+    border: none;
+    height: 35px;
+    font-weight: bold;
+
+}
+
+.ficha input{
+    border-radius: 5px;
+}
+
+.pokebola{
+    width: 200px;
+    height: 80px;
+    justify-content: center;
+    background-image: url("../../public/pkmnlogo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    
+
+    background-color: #c1d3f8;
+    background-image: url("../../public/pikachubg.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
