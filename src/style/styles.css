@@ -12,7 +12,7 @@
     box-shadow: 15px 15px 40px;
 }
 
-.ficha p {
+.ficha p , label {
     text-align: left;
     color:azure;
     font-weight: bold;
