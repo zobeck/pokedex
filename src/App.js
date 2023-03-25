@@ -1,11 +1,12 @@
 import './App.css';
 import AccesForm from './componentes/login/AccesForm';
+//import Pokecard from './componentes/Pokecard';
 
 function App() {
   return (
     <div className="App">
-     <h1>¿Quién es ese pokemon?</h1>
-     <AccesForm />
+      <AccesForm />
+     
     </div>
   );
 }
